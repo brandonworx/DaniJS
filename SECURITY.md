@@ -11,4 +11,4 @@ Below is the version chart showing which version is currently in cycle.<br />
 | 22.02   |                    | :white_check_mark: |                    |
 
 ## Reporting a Vulnerability
-At the moment there isn't a way to report issues. I'm working on that, however, and it will be up as soon as time allows.
+Use the GH Issues tab
