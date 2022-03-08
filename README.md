@@ -1,4 +1,4 @@
-<div style="width: 100%; text-align: center;">
+<div style="width: 100%; text-align: center;"> 
   <img src="https://raw.githubusercontent.com/brandonworx/FramesJS/main/modules/examplemodule/logo.png" alt="DaniJS" style="width: 40%;" /><br />
   <br />
   <b>Javascript Webapp Framework</b>
