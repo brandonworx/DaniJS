@@ -8,8 +8,8 @@
     To get started, <b>CLONE</b> the repo or <b>DOWNLOAD</b> the ZIP archive for this project.
     Once that's completed, <br />
     <ul>
-      <li><b><i>FOR ZIP</i></b>: Extract the files to a reachable web directory. I.E. Apache Webserver -> "/htdocs"</li>
-      <li><b><i>FOR CLONED</i></b>: Place the files in a webserver directory I.E Apache Webserver -> "/htdocs"</li>
+      <li><b><i>FOR ZIP</i></b>: Extract the files to a reachable web directory. I.E. Apache Webserver -> "/htdocs" or "/var/www/html"</li>
+      <li><b><i>FOR CLONED</i></b>: Place the files in a webserver directory I.E Apache Webserver -> "/htdocs" or "/var/www/html"</li>
     </ul>
     <br />Once the files are in the correct location to be served, simple open up the root directory where they have been stored with your favorite text editor. From there you will be able to see the example source code and review how DaniJS works. The included "examplemodule" HTML files can safely be removed once you get the hang of the framework.
     <br /><br />
