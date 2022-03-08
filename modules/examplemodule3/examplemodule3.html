@@ -1,0 +1,27 @@
+<examplemodule3>
+    <style>
+        #mod_examplemodule3{
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+        }
+    </style>
+    <div id="mod_examplemodule3">
+        <b>examplemodule3.html</b><br /><hr /><br />
+        This module is in a separate view from "view_initial"
+        <br /><br />
+        It can be called by calling the view that contains it using the following Javascript:<br /><br />
+        <b>setView(*name_of_view*)</b><Br /><br />
+        Keep in mind that you are calling an ARRAY and not a STRING; therefore, do not wrap the view name in quotes.<Br /><br />
+        It is also worth noting that you should have noticed the page did not refresh or navigate to load this additional content.<Br />
+        Everything that is called with setView happens using XHR functionality. This allows you to create <i>seemingly</i> one-page websites or web apps.
+        <br /><br /><br />
+        <button onClick="mod_examplemodule3_returntoinitial()" id="mod_examplemodule3_button">GO BACK TO THE FIRST VIEW</button>
+    </div> 
+</examplemodule3>
+
+<script>
+    function mod_examplemodule3_returntoinitial(){
+        setView(view_initial);
+    }
+</script>

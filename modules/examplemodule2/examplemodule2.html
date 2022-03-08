@@ -1,0 +1,43 @@
+<examplemodule2>
+    <style>
+        #mod_examplemodule2{
+            width: 80%;
+            margin: auto;
+            text-align: justify;
+        }
+        #mod_examplemodule2_text{
+            display: none;
+        }
+    </style>
+    <div id="mod_examplemodule2">
+        <br />
+        <b>examplemodule2.html</b><br /><hr /><br />
+        <p id="mod_examplemodule2_text">
+            I'm some text that should not be displayed until a button is clicked
+        </p>
+
+        <button onClick="mod_examplemodule2_showtext()" id="mod_examplemodule2_button">
+            CLICK ME
+        </button>
+
+        <br /><br />
+
+        <b>Click the button above to show the hidden text for examplemodule2</b>
+
+        <br /><br /><br />
+
+        <a onClick="mod_examplemodule2_hideexamplemodule()">CLICK THIS LINK TO HIDE THE OTHER EXAMPLE MODULE'S MAIN TEXT SECTION</a> 
+    </div> 
+</examplemodule2>
+
+<script>
+    function mod_examplemodule2_showtext(){
+        var modtext = document.getElementById("mod_examplemodule2_text");
+        modtext.style.display = "block";
+    }
+
+    function mod_examplemodule2_hideexamplemodule(){
+        var examplemodule = document.getElementById("mod_examplemodule"); //THIS IS ACCESSED FROM THE OTHER EXAMPLE MODULE "examplemodule.html"
+        examplemodule.style.display = "none";
+    }
+</script>
