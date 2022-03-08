@@ -1,5 +1,5 @@
 <div style="width: 100%; text-align: center;">
-  <img src="https://raw.githubusercontent.com/brandonthebasic/FramesJS/main/modules/examplemodule/logo.png" alt="DaniJS" style="width: 40%;" /><br />
+  <img src="https://raw.githubusercontent.com/brandonworx/FramesJS/main/modules/examplemodule/logo.png" alt="DaniJS" style="width: 40%;" /><br />
   <br />
   <b>Javascript Webapp Framework</b>
   <br /><br />
