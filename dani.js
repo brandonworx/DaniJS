@@ -209,6 +209,50 @@ function setView(targetView){
     }
 }
 
+/**
+ * @name setg
+ * @description Creates a global variable that will be tracked across all views and modules
+ * @param {string} variable The name of the variable to set as a string
+ * @param {string, int, bool, float} Value The value of the varible to set as any data type
+ * @returns {bool} "true" upon success; "false" upon failure
+ */
+ function setg(variable, value){
+    if ( window.sessionStorage.getItem(variable) ){
+        return false;
+    }
+    else{
+        window.sessionStorage.setItem(variable, value);
+        return true;
+    }
+}
+
+/**
+ * @name getg
+ * @description Retruns the value of a previous set variable using the give variable name
+ * @param {string} variable The name of the previously set global variable
+ * @returns {string} A stringified version of the previously saved data
+ */
+function getg(variable){
+    return window.sessionStorage.getItem(variable);
+}
+
+/**
+ * @name updateg
+ * @description Updates the value of a previously set global variable.
+ * @param {string} variable 
+ * @param {string, int, bool, float} value 
+ * @returns {bool} Returns true if the varible was previously set and updated, false if the variable was not previously set and not written to
+ */
+function updateg(variable, value){
+    if ( window.sessionStorage.getItem(variable) ){
+        window.sessionStorage.setItem(variable, value);
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
 /*****HOTFIXES*****/
 //Background Scaling
 function hotfix_backgroundScaling(){
