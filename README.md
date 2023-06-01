@@ -42,7 +42,7 @@
     <h4>You are absolutely free to use DaniJS in any project you like, even if you financially benefit from it. You may also modify the software to your hearts content. There is absolutely no warranty or liability on my end, though. It's a "use at your own risk" type deal. Having said that, if you do use DaniJS, I'd love to get a link to your project so I can see how the framework is doing!</h4>
     <br />
     <h3>Q: How do I *insert specific thing here*?</h3>
-    <h4>I'm working on a Wiki for the framework. Eventually I'll have it here so you can look things up. In the meantime, I can try my best to answer questions via some social links or something: Twitter: @brandonthebasic</h4>
+    <h4>I'm working on a Wiki for the framework. Eventually I'll have it here so you can look things up.</h4>
     <br />
     <h3>Q: HEY! WHY DOESN'T *insert specific thing* WORK RIGHT!?</h3>
     <h4>Probably because it's broken. This project was just a hobby of mine in my off time. I'm still working on it and trying to make it better. You can see for yourself in the source code that there really isn't THAT much to this framework. I'm not even sure it fits the definition of a framework. I appreciate your interest, though. Reach out and I can try my best to help you.</h4>
